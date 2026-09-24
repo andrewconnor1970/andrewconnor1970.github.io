@@ -1,0 +1,4 @@
+Upload public Black Eagle adventure modules into this folder as they are completed.
+Use lowercase filenames with hyphens, for example:
+black-eagle-session-one.pdf
+black-eagle-complete-adventure.pdf

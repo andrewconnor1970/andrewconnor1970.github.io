@@ -1,0 +1,10 @@
+For consistency, replace the top navigation in stories.html, queens-reign.html, legend-forge.html, and about.html with:
+Home | Else | The Black Eagle | Queen's Reign | Legend Forge | About
+
+Use these files:
+index.html
+stories.html
+black-eagle.html
+queens-reign.html
+legend-forge.html
+about.html
