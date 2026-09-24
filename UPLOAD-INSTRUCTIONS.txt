@@ -1,0 +1,12 @@
+TIAMAT.AU UPDATE v1.2
+
+Upload all contents of this package to the ROOT of the GitHub repository.
+Preserve the downloads folders exactly.
+
+Included public book:
+downloads/else-chronicles/the-third-voice-first-edition.pdf
+
+Add the Queen's Reign Player's Guide here:
+downloads/queens-reign/world-of-rhye-players-guide.pdf
+
+The Player's Guide web button expects that exact filename. Delete UPLOAD-PLAYER-GUIDE-HERE.txt after the PDF is uploaded.
