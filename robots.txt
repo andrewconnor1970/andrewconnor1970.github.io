@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andrewconnor1970.github.io/sitemap.xml
