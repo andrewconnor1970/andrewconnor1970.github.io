@@ -1,0 +1,104 @@
+/* Append this entire file to the END of the current style.css. */
+
+.hero-else {
+  position: relative;
+  min-height: 76vh;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid #27445f;
+  isolation: isolate;
+}
+
+.hero-else::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: url("assets/images/tiamat-hero.webp") center 34% / cover no-repeat;
+}
+
+.hero-else::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(3,8,18,.94) 0%, rgba(3,8,18,.64) 48%, rgba(3,8,18,.18) 100%);
+}
+
+.hero-else .hero-content {
+  max-width: 720px;
+  padding: 105px 0;
+}
+
+.hero-else h1 {
+  margin: .18em 0 .2em;
+  font-size: clamp(4.3rem, 12vw, 8.5rem);
+  line-height: .9;
+  letter-spacing: -.055em;
+}
+
+.hero-note {
+  max-width: 620px;
+  color: #c7d4e3;
+  font-size: 1.05rem;
+}
+
+.five-heads {
+  padding: 70px 0 82px;
+  background: #07111f;
+}
+
+.five-heads h2 {
+  margin: 0 0 34px;
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.head-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.head-tile {
+  min-height: 170px;
+  display: grid;
+  place-items: center;
+  padding: 22px 14px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.12rem;
+  font-weight: 800;
+  box-shadow: 0 18px 42px rgba(0,0,0,.28);
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+
+.head-tile:hover,
+.head-tile:focus {
+  transform: translateY(-5px);
+  border-color: #ffffff;
+  box-shadow: 0 24px 55px rgba(0,0,0,.38);
+}
+
+.head-blue  { background: linear-gradient(145deg,#15547f,#081f34); color:#eef9ff; }
+.head-black { background: linear-gradient(145deg,#252529,#020203); color:#ffffff; border-color:#45454c; }
+.head-red   { background: linear-gradient(145deg,#902b39,#3b0b12); color:#fff3f4; }
+.head-white { background: linear-gradient(145deg,#ffffff,#d9d9d2); color:#07111f; }
+.head-green { background: linear-gradient(145deg,#2b7d51,#0c2d1e); color:#f0fff6; }
+
+@media (max-width: 900px) {
+  .head-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .head-tile:last-child { grid-column: 1 / -1; }
+}
+
+@media (max-width: 600px) {
+  .hero-else { min-height: 660px; }
+  .hero-else::before { background-position: 62% 34%; }
+  .hero-else::after { background: linear-gradient(180deg,rgba(3,8,18,.34),rgba(3,8,18,.93)); }
+  .hero-else .hero-content { padding: 340px 0 64px; }
+  .head-grid { grid-template-columns: 1fr; }
+  .head-tile:last-child { grid-column: auto; }
+}

@@ -1,8 +1,14 @@
-TIAMAT.AU UPDATE v1.3
+TIAMAT HOME FIX v1.3.1
 
-1. Replace index.html in the website root.
-2. Add black-eagle.html to the website root.
-3. Merge downloads/black-eagle into the existing downloads folder.
-4. Open style-additions.css and append its complete contents to the END of the existing style.css. Do not replace style.css with style-additions.css.
-5. Update the navigation on the four existing content pages using nav-replacement-guide.txt.
-6. Preserve assets/images/tiamat-hero.webp. The revised index page uses that canonical Else artwork.
+This fixes the exact symptoms shown in the screenshot. The HTML loaded, but the new v1.3 CSS rules were not present in style.css.
+
+1. Replace the website root index.html with this package's index.html.
+2. Open tiamat-home-fix.css in Notepad.
+3. Copy everything in tiamat-home-fix.css.
+4. Paste it at the very END of the existing website style.css.
+5. Save style.css. Do not rename tiamat-home-fix.css to style.css and do not replace the existing stylesheet with this partial file.
+6. Confirm this existing image remains at: assets/images/tiamat-hero.webp
+7. Open index.html locally. The Else artwork should fill the hero and the five links should appear as five separate colored panels.
+8. Once validated locally, upload only index.html and style.css to GitHub.
+
+No image upload is needed if assets/images/tiamat-hero.webp is already present.
