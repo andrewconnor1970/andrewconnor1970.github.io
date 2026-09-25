@@ -1,0 +1,14 @@
+For the favicon to appear on every page, add these three lines immediately after the style.css link in each page <head>:
+
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+Pages:
+index.html
+stories.html
+black-eagle.html
+queens-reign.html
+legend-forge.html
+about.html
+404.html

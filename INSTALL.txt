@@ -1,6 +1,8 @@
-TIAMAT ELSEWHERE FIX v1.5.1
+TIAMAT FAVICON + QUEEN'S REIGN ANIMATION UPDATE v1.6
 
-Replace only about.html in the website root.
-
-The Elsewhere card styling is now embedded directly in about.html, so no style.css change is required.
-Test locally, then upload the replacement about.html to GitHub.
+1. Replace queens-reign.html in the website root.
+2. Upload favicon.ico to the website root.
+3. Merge assets/images into the existing assets/images folder.
+4. Follow FAVICON-HEAD-LINES.txt to add the favicon references to each HTML page.
+5. No style.css change is required.
+6. Test the Queen's Reign page, its two email buttons, and the browser-tab icon locally before uploading.
