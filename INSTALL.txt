@@ -1,14 +1,16 @@
-TIAMAT HOME FIX v1.3.1
+TIAMAT SITE PAGES v1.4
 
-This fixes the exact symptoms shown in the screenshot. The HTML loaded, but the new v1.3 CSS rules were not present in style.css.
+This is a coordinated replacement for the HTML pages and stylesheet only.
 
-1. Replace the website root index.html with this package's index.html.
-2. Open tiamat-home-fix.css in Notepad.
-3. Copy everything in tiamat-home-fix.css.
-4. Paste it at the very END of the existing website style.css.
-5. Save style.css. Do not rename tiamat-home-fix.css to style.css and do not replace the existing stylesheet with this partial file.
-6. Confirm this existing image remains at: assets/images/tiamat-hero.webp
-7. Open index.html locally. The Else artwork should fill the hero and the five links should appear as five separate colored panels.
-8. Once validated locally, upload only index.html and style.css to GitHub.
+Replace these files in the website root:
+- index.html
+- stories.html
+- black-eagle.html
+- queens-reign.html
+- legend-forge.html
+- about.html
+- style.css
 
-No image upload is needed if assets/images/tiamat-hero.webp is already present.
+Do not delete or replace the assets or downloads folders. Their existing images and PDFs are referenced by these pages.
+
+Local test: keep these files in the same Website folder as the existing assets and downloads folders, then open index.html.
