@@ -1,8 +1,6 @@
-TIAMAT ABOUT + THESIS UPDATE v1.5
+TIAMAT ELSEWHERE FIX v1.5.1
 
-1. Replace about.html in the website root.
-2. Open style-additions-v1.5.css and append its complete contents to the END of the existing style.css.
-3. Merge downloads/essays into the existing downloads folder.
-4. Keep all existing assets and other downloads.
-5. Test the About page locally, including the PDF, Word, YouTube, Facebook, and email links.
-6. Upload about.html, the updated style.css, and the downloads/essays folder to GitHub.
+Replace only about.html in the website root.
+
+The Elsewhere card styling is now embedded directly in about.html, so no style.css change is required.
+Test locally, then upload the replacement about.html to GitHub.
