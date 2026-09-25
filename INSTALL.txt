@@ -1,16 +1,8 @@
-TIAMAT SITE PAGES v1.4
+TIAMAT ABOUT + THESIS UPDATE v1.5
 
-This is a coordinated replacement for the HTML pages and stylesheet only.
-
-Replace these files in the website root:
-- index.html
-- stories.html
-- black-eagle.html
-- queens-reign.html
-- legend-forge.html
-- about.html
-- style.css
-
-Do not delete or replace the assets or downloads folders. Their existing images and PDFs are referenced by these pages.
-
-Local test: keep these files in the same Website folder as the existing assets and downloads folders, then open index.html.
+1. Replace about.html in the website root.
+2. Open style-additions-v1.5.css and append its complete contents to the END of the existing style.css.
+3. Merge downloads/essays into the existing downloads folder.
+4. Keep all existing assets and other downloads.
+5. Test the About page locally, including the PDF, Word, YouTube, Facebook, and email links.
+6. Upload about.html, the updated style.css, and the downloads/essays folder to GitHub.
