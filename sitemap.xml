@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://andrewconnor1970.github.io/</loc></url>
-<url><loc>https://andrewconnor1970.github.io/stories.html</loc></url>
-<url><loc>https://andrewconnor1970.github.io/queens-reign.html</loc></url>
-<url><loc>https://andrewconnor1970.github.io/legend-forge.html</loc></url>
-<url><loc>https://andrewconnor1970.github.io/about.html</loc></url>
+  <url><loc>https://tiamat.au/</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/stories.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/artwork.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/black-eagle.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/queens-reign.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/legend-forge.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://tiamat.au/about.html</loc><lastmod>2026-09-30</lastmod></url>
 </urlset>
