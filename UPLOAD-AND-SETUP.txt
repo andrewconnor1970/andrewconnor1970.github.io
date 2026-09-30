@@ -1,37 +1,30 @@
-TIAMAT.AU - COMPLETE WEBSITE RELEASE
-=====================================
+TIAMAT.AU FINAL CONSOLIDATED RELEASE
+====================================
 
-WHAT THIS RELEASE INCLUDES
-- Page-specific titles and meta descriptions
+UPLOAD
+1. Extract this ZIP.
+2. Upload the CONTENTS of the extracted folder to the repository root.
+3. Preserve the assets/images/else folder structure.
+4. Replace matching HTML, CSS, README, robots, sitemap, and favicon files.
+5. Existing downloads and unrelated assets remain in place.
+
+THIS RELEASE INCLUDES
+- Homepage New at Tiamat panel
+- Current Book One and Book Two Stories page
+- Else Artwork gallery
+- Consistent navigation
+- Page-specific titles and descriptions
 - Canonical URLs
 - Open Graph and Twitter social-preview metadata
-- Basic JSON-LD structured data
-- favicon.svg and references on every indexable page
+- JSON-LD structured data
+- favicon.svg
 - robots.txt
 - sitemap.xml
 - 404.html
-- New Else Artwork page with canonical and alternate artwork
-- Updated navigation linking the artwork gallery
-- Current Book One and Book Two Stories content
-- A prepared Cloudflare Web Analytics insertion point on every page
+- Consolidated style.css
 
-UPLOAD
-Upload the CONTENTS of this package to the repository root, preserving folders. Replace matching HTML and CSS files. Unchanged existing downloads and assets remain in place.
-
-CLOUDFLARE WEB ANALYTICS - ONE ACCOUNT-SPECIFIC STEP
-1. In Cloudflare, open Web Analytics and add tiamat.au as a site.
-2. Copy the JS snippet from Manage site.
-3. In each HTML file, paste that snippet immediately before the comment that begins: Cloudflare Web Analytics.
-4. Commit the changed pages.
-
-The exact snippet cannot be prefilled because Cloudflare generates a site-specific token. Do not publish a guessed or placeholder token.
+CLOUDFLARE WEB ANALYTICS
+The HTML pages contain a comment marking the correct insertion point. After tiamat.au is added to Cloudflare Web Analytics, paste Cloudflare's site-specific JavaScript snippet immediately above that comment on every public HTML page. Do not use a guessed token.
 
 GOOGLE SEARCH CONSOLE
-1. Add or open the tiamat.au property in Google Search Console and complete Google's ownership verification if requested.
-2. Open the Sitemaps report.
-3. Submit: sitemap.xml
-4. Confirm that its status becomes Success.
-5. Use URL Inspection for the homepage and Stories page if you want to request initial indexing explicitly.
-
-SOCIAL PREVIEWS
-The pages reference the existing assets/images/tiamat-hero.webp for general previews. Stories and Artwork use the included Else artwork. Social networks may cache older previews; the metadata in this release is the authoritative current version.
+Submit sitemap.xml for the tiamat.au property after upload and confirm that Search Console reports a successful fetch.
