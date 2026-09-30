@@ -1,30 +1,9 @@
-TIAMAT.AU FINAL CONSOLIDATED RELEASE
-====================================
+TIAMAT.AU ANALYTICS-ENABLED RELEASE
+===================================
 
-UPLOAD
-1. Extract this ZIP.
-2. Upload the CONTENTS of the extracted folder to the repository root.
-3. Preserve the assets/images/else folder structure.
-4. Replace matching HTML, CSS, README, robots, sitemap, and favicon files.
-5. Existing downloads and unrelated assets remain in place.
+Upload the CONTENTS of this folder to the repository root, preserving assets/images/else. Replace matching files. Existing downloads and unrelated assets remain in place.
 
-THIS RELEASE INCLUDES
-- Homepage New at Tiamat panel
-- Current Book One and Book Two Stories page
-- Else Artwork gallery
-- Consistent navigation
-- Page-specific titles and descriptions
-- Canonical URLs
-- Open Graph and Twitter social-preview metadata
-- JSON-LD structured data
-- favicon.svg
-- robots.txt
-- sitemap.xml
-- 404.html
-- Consolidated style.css
+Cloudflare Web Analytics token installed: 86f7b7416e7043fb9b7ce2be0947e044
+The beacon is installed on all eight HTML pages, including 404.html.
 
-CLOUDFLARE WEB ANALYTICS
-The HTML pages contain a comment marking the correct insertion point. After tiamat.au is added to Cloudflare Web Analytics, paste Cloudflare's site-specific JavaScript snippet immediately above that comment on every public HTML page. Do not use a guessed token.
-
-GOOGLE SEARCH CONSOLE
-Submit sitemap.xml for the tiamat.au property after upload and confirm that Search Console reports a successful fetch.
+After publication, open Cloudflare Web Analytics and confirm that tiamat.au begins reporting.
