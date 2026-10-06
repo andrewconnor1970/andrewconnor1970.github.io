@@ -1,12 +1,12 @@
-TIAMAT.AU UPDATE v1.2
+TIAMAT.AU - ELSE CHRONICLES BOOK THREE UPDATE
 
-Upload all contents of this package to the ROOT of the GitHub repository.
-Preserve the downloads folders exactly.
+Copy these items into the matching locations in the local Website folder:
 
-Included public book:
-downloads/else-chronicles/the-third-voice-first-edition.pdf
+1. Replace stories.html in the website root.
+2. Replace artwork.html in the website root.
+3. Replace style.css in the website root. The supplied file is unchanged, but included so the update package is self-contained.
+4. Copy assets/images/else/the-open-door-canonical-cover.png into the matching assets/images/else folder.
+5. Copy assets/images/else/else-at-the-threshold-possible-future.png into the matching assets/images/else folder.
+6. Copy downloads/else-chronicles/the-open-door-first-edition.pdf into the matching downloads/else-chronicles folder.
 
-Add the Queen's Reign Player's Guide here:
-downloads/queens-reign/world-of-rhye-players-guide.pdf
-
-The Player's Guide web button expects that exact filename. Delete UPLOAD-PLAYER-GUIDE-HERE.txt after the PDF is uploaded.
+No existing Book One or Book Two files should be removed.
