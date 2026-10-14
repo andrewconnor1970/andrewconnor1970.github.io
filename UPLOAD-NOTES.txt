@@ -1,0 +1,11 @@
+TIAMAT.AU RELEASE - 14 OCTOBER 2026
+
+Upload all included files preserving folders.
+
+IMPORTANT: The latest Module One binary could not be copied into this package from enterprise storage. Download Circle_of_Thirteen_Module_1_Publication_Edition_v13.pdf separately, rename it to the-village-that-welcomed-everyone.pdf, and place it at:
+downloads/circle-of-thirteen/the-village-that-welcomed-everyone.pdf
+
+This package intentionally excludes the private thank-you artwork.
+It also excludes rejected cover drafts that did not have sufficient public/artistic value.
+
+Do not delete existing files not included here, especially Book One, Book Two, Book Three, favicon.svg, tiamat-hero.webp, and the unchanged pages.
