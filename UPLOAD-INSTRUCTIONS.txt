@@ -1,17 +1,19 @@
-TIAMAT.AU - BOOK THREE, REFLECTIONS, AND HOMEPAGE UPDATE
+TIAMAT.AU UPDATE - 27 OCTOBER 2026
 
-Extract this ZIP into the local Website folder and replace matching files.
+This is an update package, not a complete copy of the existing repository.
 
-Root files to replace or add:
-- index.html (replace)
-- stories.html (replace)
-- artwork.html (replace)
-- style.css (replace)
-- reflections.html (new)
+1. Open the tiamat_update folder.
+2. Copy its CONTENTS into the root of the existing GitHub Pages repository.
+3. Preserve the folder structure.
+4. Allow files with the same names to replace the existing versions.
+5. Do not delete existing repository files that are not included here.
 
-New assets:
-- assets/images/else/the-open-door-canonical-cover.png
-- assets/images/else/else-at-the-threshold-possible-future.png
-- downloads/else-chronicles/the-open-door-first-edition.pdf
+This update adds or updates:
+- Book Five revised PDF and gallery cover
+- Book Six PDF and gallery cover
+- Module II PDF and download section
+- Human-AI Field Notes page
+- Else by the Window artwork
+- Homepage, navigation, metadata, sitemap, and supporting style updates
 
-This package includes all files from the earlier Book Three update plus the homepage refresh and The House We Built reflection. No Book One or Book Two files should be removed.
+Important: The website depends on existing favicon, hero, earlier artwork, and earlier download files already present in the repository. They are intentionally not duplicated in this update package.
