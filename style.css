@@ -183,4 +183,3 @@ a{color:inherit}
 .error-page{min-height:calc(100vh - 73px);display:grid;align-items:center;padding:72px 0;background:radial-gradient(circle at 25% 20%,#143354,#050b14 55%)}
 .error-code{font-size:clamp(6rem,20vw,13rem);font-weight:900;line-height:.8;color:var(--blue);opacity:.18}
 .error-page h1{font-size:clamp(2rem,5vw,4rem);margin:.3em 0}
-.release-cover{display:block;width:min(100%,420px);margin:28px auto;border-radius:16px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
