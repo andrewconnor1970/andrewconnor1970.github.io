@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <title>
-   Legend Forge | Tiamat.au
+   Legend Forge, Dragon Fodder & D&D Research | Tiamat.au
   </title>
-  <meta content="Legend Forge is a source-faithful character-history engine for tabletop roleplaying games." name="description">
+  <meta content="Legend Forge, the planned Dragon Fodder character tool, and Tiamat.au D&D lore research archives." name="description">
   <link href="https://tiamat.au/legend-forge.html" rel="canonical">
   <link href="/favicon.svg" rel="icon" type="image/svg+xml">
   <meta content="#07111f" name="theme-color">
   <meta content="website" property="og:type">
   <meta content="Tiamat.au" property="og:site_name">
-  <meta content="Legend Forge | Tiamat.au" property="og:title">
-  <meta content="Legend Forge is a source-faithful character-history engine for tabletop roleplaying games." property="og:description">
+  <meta content="Legend Forge, Dragon Fodder & D&D Research | Tiamat.au" property="og:title">
+  <meta content="Legend Forge, the planned Dragon Fodder character tool, and Tiamat.au D&D lore research archives." property="og:description">
   <meta content="https://tiamat.au/legend-forge.html" property="og:url">
   <meta content="https://tiamat.au/assets/images/tiamat-hero.webp" property="og:image">
   <meta content="Tiamat.au creative projects" property="og:image:alt">
@@ -66,71 +66,102 @@
   <main id="main">
    <section class="page-hero">
     <div class="wrap">
-     <div class="kicker">
-      From Tables to Living History
-     </div>
+     <span class="eyebrow">
+      Tabletop systems, tools, and research
+     </span>
      <h1>
       Legend Forge
      </h1>
      <p class="lede">
-      A source-faithful character-history engine that turns structured random tables into coherent, fully realized life stories for tabletop characters.
+      A home for source-faithful character generation, future D&D tooling, and research archives built to remain useful long after the original conversation ends.
      </p>
     </div>
    </section>
-   <section class="section">
+   <section class="content-section">
     <div class="wrap prose">
      <h2>
-      What Legend Forge is
+      Legend Forge
      </h2>
      <p>
-      Legend Forge is Andrew Connor's long-running reconstruction and modernization of the character-background process from the classic tabletop supplement
+      Legend Forge is a source-faithful character-history engine derived from a classic tabletop generation system. Its architecture preserves originating events, executes nested referrals and modifiers, and turns the complete result into natural narrative while keeping source-sensitive decisions auditable.
+     </p>
+     <div class="callout">
+      <strong>
+       Current status:
+      </strong>
+      parked at a clean, tested development checkpoint. Public demonstrations and release material will be added when a publishable build is ready.
+     </div>
+     <h3>
+      Development principles
+     </h3>
+     <p>
+      <strong>
+       Source fidelity.
+      </strong>
+      Preserve original mechanics where the source is clear and flag genuinely ambiguous material rather than silently rewriting it.
+     </p>
+     <p>
+      <strong>
+       Complete resolution.
+      </strong>
+      Execute rerolls, linked outcomes, conditional branches, and every child referral instead of exposing unresolved dice notation.
+     </p>
+     <p>
+      <strong>
+       Visible simplicity.
+      </strong>
+      Keep resolver logic and certification data behind the scenes while presenting a clean character history and character sheet.
+     </p>
+    </div>
+   </section>
+   <section class="content-section alt">
+    <div class="wrap prose">
+     <span class="eyebrow">
+      Planned project
+     </span>
+     <h2>
+      Dragon Fodder
+     </h2>
+     <p>
+      Dragon Fodder is the planned successor project: a modern D&D 5.5e character generator and management tool with one adaptable character sheet and a built-in Queen's Reign mode.
+     </p>
+     <div class="callout">
+      <strong>
+       Development status: planned, not currently in production.
+      </strong>
+      Work begins only after Legend Forge is complete and available development tools can reliably support bounded implementation, automated testing, version control, architectural review, and continuity across extended development sessions.
+     </div>
+     <p>
+      Dragon Fodder is intended to become a large-scale proof of concept for coordinated human-AI software development, not a prematurely announced product.
+     </p>
+    </div>
+   </section>
+   <section class="content-section">
+    <div class="wrap prose">
+     <span class="eyebrow">
+      D&D lore archive
+     </span>
+     <h2>
+      Asmodeus, Nessus, and the Future Armageddon
+     </h2>
+     <p>
+      A source-critical investigation into the future cataclysm described in
       <em>
-       Central Casting: Heroes of Legend
+       Guide to Hell
       </em>
-      . The project began years ago as an Excel and VBA learning exercise and has grown into a rules-driven system for generating a character's ancestry, culture, family, childhood, adulthood, personality, significant events, and the consequences that connect them.
-     </p>
-     <p>
-      Rather than presenting a loose list of disconnected die results, Legend Forge preserves the original parent event, follows every referred table, rolls required nested outcomes, and turns the complete result into readable character history. When a rule can resolve deterministically, the final output should contain the realized result rather than unresolved dice notation or a vague reference to another table.
-     </p>
-     <h2>
-      Design principles
-     </h2>
-     <h3>
-      Source fidelity
-     </h3>
-     <p>
-      Preserve the original mechanics and wording wherever the source is clear, while correcting obvious OCR, spelling, spacing, and punctuation defects.
-     </p>
-     <h3>
-      Complete resolution
-     </h3>
-     <p>
-      Execute nested referrals, rerolls, modifiers, linked outcomes, and conditional branches instead of stopping at the first table result.
-     </p>
-     <h3>
-      Natural history
-     </h3>
-     <p>
-      Combine the originating event and all child outcomes into coherent narrative rather than exposing internal routing or spreadsheet machinery.
-     </p>
-     <h3>
-      Visible simplicity
-     </h3>
-     <p>
-      Keep formulas, resolver logic, and certification data behind the scenes while presenting a clean end-user character sheet.
-     </p>
-     <h2>
-      The end goal
-     </h2>
-     <p>
-      The finished project is intended to become a dependable character-generation tool that can produce a complete, internally consistent history while remaining auditable against the source rules. The current workbook architecture is also a foundation for a later production application, allowing the underlying mechanics to outgrow Excel without losing the rulings, tests, and source-sensitive decisions already established.
-     </p>
-     <p>
-      Public demonstrations, project history, screenshots, and release material will be added as publishable builds become available. For project correspondence, contact
-      <a href="mailto:queen@tiamat.au">
-       queen@tiamat.au
-      </a>
+      , its roots in earlier infernal lore, the hidden Nessian army preserved by later editions, and the Fifth Edition-era return of the Ahriman and Jazirian tradition in
+      <em>
+       Chains of Asmodeus
+      </em>
       .
+     </p>
+     <p>
+      The archive separates direct published claims, in-world uncertainty, cross-edition reconciliation, and original synthesis. Fourth Edition is excluded from the central reconstruction under the project's stated parameters.
+     </p>
+     <p>
+      <a class="button" href="/dnd-armageddon.html">
+       Explore the research archive
+      </a>
      </p>
     </div>
    </section>

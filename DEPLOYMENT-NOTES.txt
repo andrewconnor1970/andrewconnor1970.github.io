@@ -23,3 +23,10 @@ POST-UPLOAD TESTS
 3. Open https://tiamat.au/artwork.html and verify The First Gift is the first gallery item.
 4. Test https://tiamat.au/subpage/this-does-not-exist and verify styling loads and Return home goes to /.
 5. Check mobile navigation and all eight main navigation destinations.
+
+SECOND RELEASE ADDITIONS
+- Redesigned Legend Forge as the tabletop systems, tools, and research hub.
+- Added an explicit parked Dragon Fodder section.
+- Added dnd-armageddon.html and PDF/DOCX downloads.
+- Added the research archive to Latest Additions and sitemap.xml.
+- This package supersedes the earlier November 24 package; upload all contents, preserving folders.
