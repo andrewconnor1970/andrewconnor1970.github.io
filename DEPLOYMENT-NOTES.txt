@@ -1,0 +1,25 @@
+TIAMAT.AU RELEASE PACKAGE - 24 NOVEMBER 2026
+
+UPLOAD CONTENTS
+Upload the CONTENTS of this folder to the web root, preserving directories.
+
+COMPLETED
+- Added The First Gift (Book Ten) to the homepage and Stories page.
+- Added the canonical Book Ten cover to Else Artwork.
+- Included the Book Ten PDF and cover asset at their final site paths.
+- Converted site-owned assets and homepage links to root-relative paths.
+- Corrected every TIAMAT.AU brand link to use /.
+- Preserved the nested-path-safe 404 page using /style.css and /.
+- Re-formatted HTML and CSS for readable source.
+- Updated social-preview artwork and sitemap last-modified dates.
+
+INTENTIONALLY NOT CHANGED
+- Internal page URLs still use .html. The supplied files do not establish whether the host has clean-URL rewriting. Removing extensions without redirects could create broken links. This should be implemented only after the host configuration is confirmed and permanent redirects are prepared.
+- The Asmodeus/Nessus research archive is not included because its authoritative public-release document was not part of this upload set.
+
+POST-UPLOAD TESTS
+1. Open https://tiamat.au/ and verify The First Gift appears under Latest Additions.
+2. Open https://tiamat.au/stories.html#book-ten and download Book Ten.
+3. Open https://tiamat.au/artwork.html and verify The First Gift is the first gallery item.
+4. Test https://tiamat.au/subpage/this-does-not-exist and verify styling loads and Return home goes to /.
+5. Check mobile navigation and all eight main navigation destinations.
